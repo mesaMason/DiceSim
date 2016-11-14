@@ -1,0 +1,10 @@
+Dice Sim App
+
+FindDiscrepancy:
+In the .java file, change sides[] to contain probabilities, compile and run
+in order to get the max discrepancy.
+
+DiceSim:
+In order for the VS solution to work properly, the compiled bullet3-2.85.1
+directory must be placed in the parent directory containing DiceSim with
+the name: bullet3-2.85.1
