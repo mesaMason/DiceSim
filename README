@@ -8,3 +8,19 @@ DiceSim:
 In order for the VS solution to work properly, the compiled bullet3-2.85.1
 directory must be placed in the parent directory containing DiceSim with
 the name: bullet3-2.85.1
+
+DiceSim uses Bullet Physics and must link with the following libraries:
+ - Bullet3Collision
+ - Bullet3Common
+ - Bullet3Dynamics
+ - LinearMath
+ - OpenGL_Window
+
+In addition, it uses the following source files from Bullet source:
+ - {BULLET_SOURCE_DIR}\examples\Utils\b3Clock.cpp
+ - {BULLET_SOURCE_DIR}\examples\Utils\b3Clock.h 
+ - {BULLET_SOURCE_DIR}\examples\ExampleBrowser\CollisionShape2TriangleMesh.cpp
+ - {BULLET_SOURCE_DIR}\examples\ExampleBrowser\GL_ShapeDrawer.cpp
+ - {BULLET_SOURCE_DIR}\examples\ExampleBrowser\OpenGLGuiHelper.cpp
+ - {BULLET_SOURCE_DIR}\examples\CommonInterfaces\CommonExampleInterface.h
+ - {BULLET_SOURCE_DIR}\examples\CommonInterfaces\CommonRigidBodyBase.h 
